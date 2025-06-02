@@ -98,6 +98,7 @@ function App() {
                   type="text"
                   name="name"
                   id="name"
+                  className="block w-full rounded-md border-gray-300 shadow-sm focus:ring-black focus:border-black"
                   placeholder="Enter your name"
                 />
               </div>
@@ -109,6 +110,7 @@ function App() {
                   type="email"
                   name="email"
                   id="email"
+                  className="block w-full rounded-md border-gray-300 shadow-sm focus:ring-black focus:border-black"
                   placeholder="Enter your email"
                 />
               </div>
@@ -120,6 +122,7 @@ function App() {
                   id="message"
                   name="message"
                   rows="4"
+                  className="block w-full rounded-md border-gray-300 shadow-sm focus:ring-black focus:border-black"
                   placeholder="Enter your message"
                 ></textarea>
               </div>
