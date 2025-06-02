@@ -6,9 +6,15 @@
   input[type="text"],
   input[type="email"],
   textarea {
-    @apply w-full px-4 py-3 rounded-md border-gray-300 shadow-sm;
-    @apply focus:border-black focus:ring-black transition-colors;
-    @apply bg-white;
+    @apply w-full px-4 py-3 rounded-md;
+    @apply border border-gray-300 focus:border-black;
+    @apply focus:ring-1 focus:ring-black;
+    @apply bg-white shadow-sm;
+    @apply placeholder-gray-400;
+  }
+
+  textarea {
+    @apply resize-none;
   }
 }
 
@@ -16,9 +22,10 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @apply text-gray-900;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
 }
